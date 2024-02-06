@@ -16,8 +16,9 @@ let currentCategory = "coffee";
 
 window.addEventListener("resize", draw);
 
-async function main() {
+function main() {
   productsByCategory = groupBy(products, "category");
+  console.log(productsByCategory);
   draw();
 }
 
@@ -190,7 +191,7 @@ function drawItemCards(items) {
         currentSize = product.sizes.m["add-price"];
         currentTotal =
           Number(product.price) + Number(currentSize) + Number(additivesSum);
-        total.innerHTML = `$${currentTotal.toFixed(2)}`
+        total.innerHTML = `$${currentTotal.toFixed(2)}`;
       });
 
       lBtn.addEventListener("click", () => {
@@ -200,7 +201,7 @@ function drawItemCards(items) {
         currentSize = product.sizes.l["add-price"];
         currentTotal =
           Number(product.price) + Number(currentSize) + Number(additivesSum);
-        total.innerHTML = `$${currentTotal.toFixed(2)}`
+        total.innerHTML = `$${currentTotal.toFixed(2)}`;
       });
 
       firstAdd.addEventListener("click", firstAddClick);
@@ -211,14 +212,14 @@ function drawItemCards(items) {
           additivesSum += Number(product.additives[0]["add-price"]);
           currentTotal =
             Number(product.price) + Number(currentSize) + additivesSum;
-          total.innerHTML = `$${currentTotal.toFixed(2)}`
+          total.innerHTML = `$${currentTotal.toFixed(2)}`;
         } else {
           firstAdd.classList.remove("btn-add-active");
           fourthCircle.classList.remove("circle-style-active");
           additivesSum -= Number(product.additives[0]["add-price"]);
           currentTotal =
             Number(product.price) + Number(currentSize) + additivesSum;
-          total.innerHTML = `$${currentTotal.toFixed(2)}`
+          total.innerHTML = `$${currentTotal.toFixed(2)}`;
         }
       }
 
@@ -230,7 +231,7 @@ function drawItemCards(items) {
           additivesSum += Number(product.additives[1]["add-price"]);
           currentTotal =
             Number(product.price) + Number(currentSize) + additivesSum;
-          total.innerHTML = `$${currentTotal.toFixed(2)}`
+          total.innerHTML = `$${currentTotal.toFixed(2)}`;
         } else {
           secondAdd.classList.remove("btn-add-active");
           fifthCircle.classList.remove("circle-style-active");
@@ -249,7 +250,7 @@ function drawItemCards(items) {
           additivesSum += Number(product.additives[1]["add-price"]);
           currentTotal =
             Number(product.price) + Number(currentSize) + additivesSum;
-          total.innerHTML = `$${currentTotal.toFixed(2)}`
+          total.innerHTML = `$${currentTotal.toFixed(2)}`;
         } else {
           thirdAdd.classList.remove("btn-add-active");
           sixthCircle.classList.remove("circle-style-active");
