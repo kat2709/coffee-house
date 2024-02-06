@@ -1,3 +1,5 @@
+import { products } from "./products.js";
+
 const coffeeBtn = document.querySelector("#coffee-btn");
 const teaBtn = document.querySelector("#tea-btn");
 const dessertBtn = document.querySelector("#dessert-btn");
@@ -15,9 +17,6 @@ let currentCategory = "coffee";
 window.addEventListener("resize", draw);
 
 async function main() {
-  // const resp = await fetch("/kat2709-JSFE2023Q4/coffee-house/products.json");
-  const resp = await fetch("./products.json");
-  const products = await resp.json();
   productsByCategory = groupBy(products, "category");
   draw();
 }
@@ -110,7 +109,6 @@ function drawItemCards(items) {
     itemPrice.classList.add("price-style");
     itemDescription.appendChild(itemPrice);
 
-    // todo
     //
     itemCard.addEventListener("click", () => {
       // dialog window
