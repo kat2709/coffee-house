@@ -859,4 +859,18 @@ footer {
   .contacts {
     margin-top: 40px;
   }
+
+  .dialog-box{
+    width: 290px;
+  }
+
+  .close-btn {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 370px){
+  .dialog-box{
+    width: 270px;
+  }
 }

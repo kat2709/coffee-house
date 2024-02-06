@@ -15,7 +15,8 @@ let currentCategory = "coffee";
 window.addEventListener("resize", draw);
 
 async function main() {
-  const resp = await fetch("/kat2709-JSFE2023Q4/coffee-house/products.json");
+  // const resp = await fetch("/kat2709-JSFE2023Q4/coffee-house/products.json");
+  const resp = await fetch("./products.json");
   const products = await resp.json();
   productsByCategory = groupBy(products, "category");
   draw();
