@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Autour+One&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="menu_style.css" />
+    <link type="Image/x-icon" href="./assets/icons/favicon.svg" rel="icon" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-box">
+        <a href="./index.html">
+          <div class="logo">
+            <img src="./assets/icons/logo.svg" alt="logo" />
+          </div>
+        </a>
+        <nav id="nav-header">
+          <ul>
+            <li>
+              <a id="favorite-link" href="./index.html#favorite-coffee"
+                ><p>Favorite coffee</p></a
+              >
+            </li>
+            <li class="about-width">
+              <a href="./index.html#about"><p>About</p></a>
+            </li>
+            <li class="mobile-app-width">
+              <a href="./index.html#mobile-app"><p>Mobile app</p></a>
+            </li>
+            <li class="contact-width">
+              <a href="#footer"><p>Contact us</p></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-header-link">
+          <div class="into-box-menu-link">
+            <div>
+              Menu
+              <img src="./assets/icons/coffee-cup.svg" alt="coffee-icon" />
+            </div>
+          </div>
+        </div>
+        <div class="burger-menu">
+          <div id="first-line" class="open-menu"></div>
+          <div id="second-line" class="open-menu"></div>
+        </div>
+      </div>
+      <div class="burger-menu-box"></div>
+    </header>
+    <main>
+      <h1>
+        Behind each of our cups hides an
+        <span class="italic-style">amazing surprise</span>
+      </h1>
+      <div class="tabs-box">
+        <div id="coffee-btn" class="tabs-btn active-btn">
+          <div class="coffee-img active-img"></div>
+          Coffee
+        </div>
+        <div id="tea-btn" class="tabs-btn">
+          <div class="tea-img"></div>
+          Tea
+        </div>
+        <div id="dessert-btn" class="tabs-btn">
+          <div class="dessert-img"></div>
+          Dessert
+        </div>
+      </div>
+      <div class="container"></div>
+      <div class="loading-icon"></div>
+
+      <dialog id="dialog">
+        <div class="dialog-window">
+          <div class="dialog-img">
+            <img id="dialog-img" src="./assets/menu_images/coffee-1.jpg" />
+          </div>
+          <div class="dialog-box">
+            <h3 id="dialog-title">Irish coffee</h3>
+            <p id="dialog-text">
+              Fragrant black coffee with Jameson Irish whiskey and whipped milk
+            </p>
+            <div class="size-box">
+              Size
+              <div class="btns-size-box">
+                <button id="s-btn" class="btn-size btn-size-active">
+                  <div
+                    id="first-circle"
+                    class="circle-style circle-style-active"
+                  >
+                    S
+                  </div>
+                  <span id="small-size">200 ml</span>
+                </button>
+                <button id="m-btn" class="btn-size">
+                  <div id="second-circle" class="circle-style">M</div>
+                  <span id="medium-size">300 ml</span>
+                </button>
+                <button id="l-btn" class="btn-size">
+                  <div id="third-circle" class="circle-style">L</div>
+                  <span id="large-size">400 ml</span>
+                </button>
+              </div>
+            </div>
+            <div class="additives-box">
+              Additives
+              <div class="btns-size-box">
+                <button id="first-add" class="btn-size">
+                  <div id="fourth-circle" class="circle-style">1</div>
+                  <span id="first-additive">Sugar</span>
+                </button>
+                <button id="second-add" class="btn-size">
+                  <div id="fifth-circle" class="circle-style">2</div>
+                  <span id="second-additive">Cinnamon</span>
+                </button>
+                <button id="third-add" class="btn-size">
+                  <div id="sixth-circle" class="circle-style">3</div>
+                  <span id="third-additive">Syrup</span>
+                </button>
+              </div>
+            </div>
+            <div class="total-box">
+              Total:
+              <div id="total" class="total-price">$7.00</div>
+            </div>
+            <div class="dialog-info-box">
+              <img src="./assets/icons/info-empty.svg" />
+              <p>
+                The cost is not final. Download our mobile app to see the final
+                price and place your order. Earn loyalty points and enjoy your
+                favorite coffee with up to 20% discount.
+              </p>
+            </div>
+            <button class="close-btn">Close</button>
+          </div>
+        </div>
+      </dialog>
+    </main>
+    <footer id="footer">
+      <div class="socials-box">
+        <h2 class="footer-color">
+          Sip, Savor, Smile.
+          <span class="italic-style">It&#8217;s coffee time!</span>
+        </h2>
+        <div class="socials">
+          <a href="https://twitter.com/" target="_blank">
+            <div class="twitter-icon"></div>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <div class="instagram-icon"></div>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <div class="facebook-icon"></div>
+          </a>
+        </div>
+      </div>
+      <div class="contacts">
+        <p class="contacts-title">Contact us</p>
+        <div class="contact-links">
+          <div class="map-link-box">
+            <a
+              class="link-text"
+              href="https://www.google.com/maps/place/L.A.+Cafe./@34.045169,-118.404539,12z/data=!4m10!1m2!2m1!1sLos+Angeles+coffee!3m6!1s0x80c2c6355a20a8a9:0x3a90e709fc873d3f!8m2!3d34.045169!4d-118.2521037!15sChJMb3MgQW5nZWxlcyBjb2ZmZWVaFCISbG9zIGFuZ2VsZXMgY29mZmVlkgEEY2FmZeABAA!16s%2Fg%2F1td0gsdb?entry=ttu"
+              target="_blank"
+            >
+              <img src="./assets/icons/pin-alt.svg" alt="map-icon" />
+              8558 Green Rd.,&nbsp; LA
+            </a>
+          </div>
+          <div class="phone-link-box">
+            <a class="link-text" href="tel:16035550123" target="_blank">
+              <img src="./assets/icons/phone.svg" alt="phone" />
+              +1 (603) 555-0123
+            </a>
+          </div>
+          <div>
+            <a class="link-text">
+              <img src="./assets/icons/clock.svg" alt="clock" />
+              Mon-Sat: 9:00 AM &ndash; 23:00 PM
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./menu.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
