@@ -34,7 +34,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-1.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-1.jpg",
   },
 
   {
@@ -72,7 +72,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-2.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-2.jpg",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-3.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-3.jpg",
   },
   {
     id: 4,
@@ -144,7 +144,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-4.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-4.jpg",
   },
 
   {
@@ -181,7 +181,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-5.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-5.jpg",
   },
   {
     id: 6,
@@ -218,7 +218,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-6.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-6.jpg",
   },
   {
     id: 7,
@@ -254,7 +254,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-7.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-7.jpg",
   },
   {
     id: 8,
@@ -290,7 +290,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/coffee-8.jpg",
+    image: "/coffee-house/assets/menu_images/coffee-8.jpg",
   },
   {
     id: 9,
@@ -327,7 +327,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/tea-1.jpg",
+    image: "/coffee-house/assets/menu_images/tea-1.jpg",
   },
   {
     id: 10,
@@ -363,7 +363,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/tea-2.jpg",
+    image: "/coffee-house/assets/menu_images/tea-2.jpg",
   },
   {
     id: 11,
@@ -399,7 +399,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/tea-3.jpg",
+    image: "/coffee-house/assets/menu_images/tea-3.jpg",
   },
   {
     id: 12,
@@ -436,7 +436,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/tea-4.jpg",
+    image: "/coffee-house/assets/menu_images/tea-4.jpg",
   },
   {
     id: 13,
@@ -473,7 +473,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-1.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-1.jpg",
   },
   {
     id: 14,
@@ -509,7 +509,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-2.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-2.jpg",
   },
   {
     id: 15,
@@ -546,7 +546,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-3.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-3.jpg",
   },
   {
     id: 16,
@@ -583,7 +583,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-4.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-4.jpg",
   },
   {
     id: 17,
@@ -619,7 +619,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-5.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-5.jpg",
   },
   {
     id: 18,
@@ -655,7 +655,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-6.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-6.jpg",
   },
   {
     id: 19,
@@ -691,7 +691,7 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-7.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-7.jpg",
   },
   {
     id: 20,
@@ -728,6 +728,6 @@ export const products = [
         "add-price": "0.50",
       },
     ],
-    image: "/assets/menu_images/dessert-8.jpg",
+    image: "/coffee-house/assets/menu_images/dessert-8.jpg",
   },
 ];
